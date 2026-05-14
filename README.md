@@ -12,7 +12,7 @@ Predicts nightly rental prices for New York City Airbnb listings using a tuned e
 
 | Model | CV MAE |
 |---|---|
-| Mean baseline (instructor) | $145.18 |
+| Mean baseline (predict mean) | $145.18 |
 | LightGBM (default) | $37.99 ± $0.74 |
 | XGBoost (default) | $38.17 ± $0.77 |
 | CatBoost (default) | $38.98 ± $0.74 |
@@ -22,7 +22,7 @@ Predicts nightly rental prices for New York City Airbnb listings using a tuned e
 | CatBoost (Optuna-tuned) | $38.54 ± $0.82 |
 | **Ensemble (LGBM + XGB + CB)** | **$37.53** |
 
-Ensemble weights (SLSQP-optimized on OOF predictions): LightGBM 43.3%, XGBoost 36.4%, CatBoost 20.4%, MLP 0%.
+Ensemble weights (SLSQP-optimized on OOF predictions): LightGBM 43.3%, XGBoost 36.4%, CatBoost 20.4%.
 
 ---
 
