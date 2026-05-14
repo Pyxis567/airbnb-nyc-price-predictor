@@ -1,5 +1,5 @@
 # Airbnb NYC Price Predictor
-
+✅ Core model complete — actively experimenting with new approaches and ensembles.
 Predicts nightly rental prices for New York City Airbnb listings using a tuned ensemble of gradient boosting models. Built for the UCSD Spring 2026 DSC 148 Kaggle competition (metric: MAE).
 
 **Best result: CV MAE $37.53** — a 74% reduction from the $145.18 mean-value baseline.
